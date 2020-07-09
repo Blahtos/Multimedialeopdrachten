@@ -5,17 +5,107 @@
         <title>
             Hardware en software
         </title>
-
+    <link href="style.css" rel="stylesheet" type="text/css">
     </head>
-
-
-
     <body>
         <h1>
             Hardware en software
         </h1>
-
-
+		<h2>Hardware</h2>
+		<h3>Computer</h3>
+		<p>
+			Een computer is een apparaat waarmee gegevens aan de hand van algoritmes verwerkt kunnen worden. Een voorbeeld hiervan in een XPS15 laptop.
+		</p>
+		<h3>Randapparatuur</h3>
+		<p>
+			Randapparatuur is een extern apparaat die een in- of uitgang biedt. Onder invoer gelden apparaten zoals toetsenborden, muizen en webcams. Onder uitvoer gelden apparaten zoals beeldschermen en printers.
+		</p>
+		<h3>Moederbord</h3>
+		<p>
+			Een moederbord is een printplaat waar insteekplaten van andere componenten op gemonteerd kunnen worden. Hierin zitten databanen waardoor de verschillende componenten met elkaar verbonden zijn.
+		</p>
+		<h3>Processor</h3>
+		<p>
+			Een processor is een rekenchip, in staat om basisbewerkingen en -controle uit te voeren in programmacode. Een voorbeeld heirvan is de Intel xeon x5660.
+		</p>
+		<h4>Von Neumann-bottleneck</h4>
+		<p>
+			De Von Neumann-flessenhals is de naam voor het probleem waarin het ophalen van een instructie en een bewerking op de data niet op hetzelfde moment kunnen plaatsvinden, omdat ze een gezamelijke bus delen. Dit is vaak een beperkende vactor in de prestaties van een computersysteem.
+		</p>
+		<h4>Core/Multicore</h4>
+		<p>
+			Een core is de processor van de CPU, en is dus verantwoordelijk voor het verwerken van informatie. Een core kan een taak tegelijkertijd uitvoeren. Vroeger hadden CPU’s vaak maar 1 core, maar tegenwoordig is er een reeks aan verschillende configuraties, van 2 tot 72-cores. Dit worden dan multicore CPU’s genoemd. Doordat deze CPU’s meerdere cores hebben, kunnen ze meerdere taken tegelijkertijd uitvoeren. Hierdoor kan er makkelijk extra snelheid gewonnen worden. Het nadeel hiervan is dat veel software geen gebruik maakt van de mogelijkheid om meerdere cores te gebruiken. 
+		</p>
+		<h4>Kloksnelheid / Overclocken</h4>
+		<p>
+			Kloksnelheid geeft aan hoe snel een signaal gelezen, geschreven of verwerkt wordt in een bepaald component. Dit wordt vaak in Hertz of Megahertz uitgedrukt. Overclocken is de term voor het versnellen van de kloksnelheid buiten de specificatie van de fabrikant. Zo kun je meer performance uit je CPU of geheugen halen. Bij overclocken wordt een component naar zijn maximum gebracht worden. Doordat de processor meer berekeningen per seconden afhandelt, wordt deze ook warmer, dus is het nodig om deze beter te koelen. In extreme gevallen wordt dit zelfs gedaan met vloeibare stikstof.
+		</p>
+		<h3>Communicatie met de processor</h3>
+		<h4>Adresbus</h4>
+		<p>
+			Dit is een bus die door de processor van een computer gebruikt wordt om aan te geven op welke locatie bepaalde data zich bevindt. Elk pad bevat een bit. De breedte van de adresbus bepaald hoeveel geheugen er maximaal geadresseerd kan worden. Hoe meer paden er aanwezig zijn, hoe meer locaties geadresseerd kunnen worden. Gebruikelijke busbreedtes zijn 8, 16, 32 en 64 bits.
+		</p>
+		<h4>Besturingsbus</h4>
+		<p>
+			De besturingsbus is het onderdeel dat verschillende onderdelen met elkaar verbind en waarlangs opdrachten kunnen uitgewisseld. 
+		</p>
+		<h4>Databus</h4>
+		<p>
+			Een databus neemt het transport van digitale data voor zijn rekening. Er zijn meerdere varianten van deze bussen, parallelle en seriële bussen. Een parallelle bus kan meerdere databits tegelijkertijd versturen terwijl een seriële databus de bits na elkaar stuurt. Parallelle databussen zijn in het algemeen sneller dan een seriële bus, maar kan dit maar over korte afstand doen, terwijl dit bij de seriële bus omgekeerd is (langzamer maar over langere afstand).
+		</p>
+		<h3>Geheugen / opslag</h3>
+		<h4>Werkgeheugen</h4>
+		<p>
+			Werkgeheugen bestaat uit verschillende onderdelen, RAM, het registergeheugen (geheugen van de CPU) en het extern geheugen (harde schijf/Solid State Drive). Het werkgeheugen dat zich op het extern geheugen bevind doet dienst als virtueel geheugen. De processor denkt dat het beschikking heeft over een veel groter fysiek geheugen dan er in de werkelijkheid is aan RAM
+		</p>
+		<h4>RAM</h4>
+		<p>
+			Random Access Memory is een computergeheugen waarvan iedere geheugenplaats even snel toegankelijk is. Binnen de RAM zijn er verschillende soorten, DRAM en SRAM; Dynamic Random Access Memory en Static Random Access Memory. Dynamic RAM is een type RAM waarbij iedere informatiebit als een elektrische lading in een kleine condensator van een geheugencel wordt opgeslagen. Deze lading lekt langzaam weg en moet daarom periodiek worden uitgelezen en teruggeschreven op de lading op pijl te houden. Static RAM hoeft niet periodiek ververst te worden, omdat de geheugencel uit een flipflop met 6 transistors bestaat. Dit is veel duurder maar wel sneller geheugen.
+		</p>
+		<h4>Cache</h4>
+		<p>
+			Cache is tijdelijk geheugen; het is een opslagplaats waarin gegevens tijdelijk opgeslagen worden om sneller toegang te hebben tot deze data. Google Chrome neemt hierdoor bijvoorbeeld ook extra opslagruimte op in een verborgen mapje. 
+		</p>
+		<p3>Permanent geheugen</p3>
+		<h4>Harde schijven</h4>
+		<p>
+			Harde schijven zijn een vorm van opslag aan de hand van magnetische polarisatie. Een harde schijf bestaat uit meerdere ronden platen met een magnetiseerbare coating. Over deze platen kan een arm (actuator) bewegen, met daarop lees- en schrijfkoppen. Doordat dit met een arm wordt gedaan, kan het zijn dat de kop verplaatst moet worden en dat er gewacht moet worden tot de koppen op de juiste plek op de ronde plaat zijn. Deze platen draaien met 5400RPM of 7200RPM, en limiteert de maximale lees en schrijfsnelheid. Ook zitten er bewegende onderdelen in die kapot kunnen gaan.
+		</p>
+		<h4>SSD's</h4>
+		<p>
+			Een SSD (Solid State Drive) is een vorm van opslag met behulp van flash of SDRAM. SSD’s kunnen op de zelfde manier als de meeste HDD’s aangesloten worden; een SATA-aansluiting, maar ook direct op het moederboard via PCI en PCIE(xpress) ansluitingen. Hierdoor kunnen SSD’s veel sneller zijn dan traditionele HDD’s, maar zijn daardoor wel duurder. Doordat er in een SSD geen bewegende onderdelen zitten, zijn ze mechanisch een stuk betrouwbaarder dan HDD’s. Een van de snelste SSD’s op de markt is de Samsung 970 Evo Plus.
+		</p>
+		<h3>Aansluitingen</h3>
+		<h4>SATA</h4>
+		<p>
+			Serial ATA, of Serial Advanced Technology Attachment, is een computerbus ontworpen voor het trasporteren van gegevens tussen computer en externe opslag. SATA is een seriële databus, waardoor het kabellengtes tot 90 a 100 cm ondersteund. De laatste generatie SATA heeft een maximale doorvoersnelheid van 6 Gb/s.
+		</p>
+		<h4>PCIe</h4>
+		<p>
+			PCI express, Peripheral Component Interconnect Express, is een standaard voor insteekkaarten. PCIe ondersteunt insteekkaarten (bv GPU’s) tot 300 watt, waarvan 75watt uit het PCIe-slot geleverd wordt. Het vormt een oplssing voor de steeds grotere vraag naar snelheid. PCIe 4.0 heeft een snelheid van 16GT/s (gigatransfers/sec), maar de snelheid in GB/s verschilt. Dit komt door de verschillende aantallen in rijstroken die beschikbaar zijn. Als er 4 stroken beschikbaar zijn, kan de poort 8Gb/s aan
+		</p>
+		<h4>Monitor</h4>
+		<p>
+			-	VGA, Video graphics array is een analoge manier om een beeldscherm aan te sturen. VGA maakt gebruik van een D-type connector met 15 pinnen. Elke pin heeft een bepaalde functie, waarvan sommige een retourpinnen zijn. RGB wordt los aangestuurd en hetzelfde geldt voor de horizontale- en verticale sync. 
+			<br><br>
+			-	HDMI, High Definition Multimedia Interface is een aansluiting voor audio- en videosignalen. HDMI is een niet-gecomprimeerd digitaal signaal, wordt via een kabel bestaand uit 19 aders (Type A) verstuurd, en heeft een maximale 48 Gb/s kanaalcapaciteit. 
+			<br><br>
+			-	DVI, Digital Visual Interface was bedoelt als interface voor monitoren. Wat DVI speciaal maakte is de mogelijkheid om een verbinding tot stand te brengen tussen computer en monitor met een bandbreedte tot 165 MHZ voor een enkele verbinding.
+			<br><br>
+			-	DP, DisplayPort is een video- en audio standaard dat in 2006 goedgekeurd werd. DisplayPort heeft een grote bandbreedte (max. 10,8 Gb/s) en heeft een kleinere connector dan VGA.  Ook is het mogelijk om beeldschermen te daisy chainen (het doorverbinden van een monitor naar de andere).
+		</p>
+		<h4>USB</h4>
+		<p>
+			Universal Serial Bus is de vervanger van de langzamere parallelle en seriële poorten, vooral omdat de snelheid van gegevensoverdracht veel groter is. De standaard dat door Intel in 1996 geïntroduceerd werd, had een gestandaardiseerde USB-poort, waardoor hardware fabrikanten producten voor zowel PC’s en Macs compatibel maken. USB is te vinden op veel randapparatuur en microcontrollers. Er zijn veel verschillende types USB connectoren, waaronder de meest recente versie 3.1 USB C, met een bandbreedte van 10Gb/s (Thunderbolt 3 heeft een bandbreedte van 40Gb/s). 
+		</p>
+		<h3>Grafische kaart</h3>
+		<p>
+			Een grafische kaart (GPU) is een processor dat alle videotaken voor zich neemt. Hierdoor neemt het taken over van de CPU, waardoor deze zich op andere taken kan richten. In veel laptops zitten de GPU en CPU in dezelfde processor. Dit wordt gedaan om ruimte te besparen, maar gaat ten koste van prestatie. Een voorbeeld hiervan is de Intel UHD620, een zwakke GPU dat niet geschikt is voor zware taken zoals het versnellen van CAD-software of grafisch zware spellen zoals GTA 5. 
+		</p>
+		<h3>Hoe komt alles samen?</h3>
+		<p>
+			Alle hardware komt samen door het moederboard. Hierin lopen koperen banen waarmee ze met elkaar verbonden worden. Elk onderdeel heeft een eigen plek op het moederboard. In het geval van een MSI H310M PRO-M2 PLUS, wordt een SSD aangesloten via een M.2 slot, de Intel Core i9 CPU in zijn 1151 socket, de Nvidia RTX 2080ti GPU in de PCIe 3.0 slot, het geheugen in de DIMM slots, mogelijk nog een 5TB HDD via een SATA kabel. Dit wordt allemaal door een PSU (power supply unit) gevoed, aan de hand van specifieke kabels. De monitor kan aangestuurd worden door de HDMI op de GPU, de muis verbonden worden met een USB port op het moederboard
+		</p>
         <h2>
             Bron- en licentieprogramma's
         </h2>   
